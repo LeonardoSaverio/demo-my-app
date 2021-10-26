@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { Button } from 'react-bootstrap';
-import Home from './pages/home';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      {/* <header className="App-header">
+      <header className="App-header">
         <Button variant="light">Light</Button>
         <Button variant="dark">Dark</Button>
         <img src={logo} className="App-logo" alt="logo" />
@@ -22,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
     </div>
   );
 }
